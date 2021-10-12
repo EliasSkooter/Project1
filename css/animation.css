@@ -1,0 +1,15 @@
+@keyframes rising {
+    0% {
+        transform: translate(0, 10rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.bodyHeader {
+    animation: rising 2s ease-out;
+    transition: 2s;
+}
