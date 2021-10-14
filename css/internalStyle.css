@@ -1,0 +1,18 @@
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton {
+    position: absolute;
+    left: 5%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
