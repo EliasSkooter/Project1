@@ -1,3 +1,15 @@
+@media screen and (min-width: 1150px) {
+ .bodyGrid {
+     grid-template-columns: 33% 33% 33% !important;
+ }   
+}
+
+@media screen and (max-width: 750px) {
+    .bodyGrid {
+        grid-template-columns: 100% !important;
+    }
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -31,8 +43,6 @@ body {
 }
 
 .header .video {
-    width: 200px;
-    height: 100px;
     z-index: 1;
     position: absolute;
     top: 0;
@@ -91,4 +101,12 @@ body {
 .planetImage1 {
     width: 350px;
     height: 250px;
+}
+
+.MercuryBody {
+    padding: 1rem;
+}
+
+.MercuryBody p {
+    font-size: 16px;
 }
