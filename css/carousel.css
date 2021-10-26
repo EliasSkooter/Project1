@@ -21,7 +21,7 @@
     -ms-overflow-style: none;
 }
   
-ol, li {
+.carousel__navigation ol, .carousel__navigation li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -49,6 +49,9 @@ ol, li {
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
   
 .carousel__slide {
