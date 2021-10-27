@@ -17,7 +17,7 @@
 .partTwo h1 {
     font-size: 2vw;
     transition: 2s;
-    animation: zoomIn 15s linear 12s;
+    animation: zoomIn 15s linear 8s;
     opacity: 0;
     position: absolute;
     top: 50vh;
@@ -27,13 +27,13 @@
 .partThree {
     padding: 1rem;
     opacity: 0;
-    animation: slideIn 3000s 18s;
+    animation: slideIn 3000s 14s;
 }
 
 .partFour {
     padding: 1rem;
     opacity: 0;
-    animation: slideIn 3000s 20s;
+    animation: slideIn 3000s 16s;
 }
 
 .partFive {
@@ -42,7 +42,19 @@
     align-items: center;
     padding: 1rem;
     opacity: 0;
+    animation: slideIn 3000s 18s;
+}
+
+.partSix {
+    padding: 1rem;
+    opacity: 0;
+    animation: slideIn 3000s 20s;
+}
+
+.partSeven {
+    opacity: 0;
     animation: slideIn 3000s 22s;
+    padding-bottom: 3rem;
 }
 
 @keyframes zoomIn {
@@ -50,7 +62,7 @@
         opacity: 0;
         transform: scale(1);
     }
-    25% {
+    15% {
         opacity: 1;
         transform: scale(4);
     }
